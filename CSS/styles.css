@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F6E2B3; /* Fondo de la paleta */
+    color: #274C56;
+    line-height: 1.6;
+}
+
+/*  ENCABEZADO  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #274C56; 
+    color: #e4d3d3;
+    padding: 1.5rem 3rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.header-titulos h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header-titulos h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #E7A84E;
+    margin-top: 0.3rem;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #E7A84E;
+}
+
+/* TARJETAS  */
+.contenedor-tarjetas {
+    display: flex; 
+    gap: 2rem; 
+    padding: 3rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Estilos de cada caja  */
+.tarjeta-modulo {
+    flex: 1; 
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    border: 1px solid #E7A84E;
+}
+
+.tarjeta-modulo h2 {
+    color: #274C56;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #E7A84E;
+    padding-bottom: 0.5rem;
+}
+
+.tarjeta-modulo p, .tarjeta-modulo ul {
+    font-size: 0.95rem;
+    color: #333333;
+}
+
+.tarjeta-modulo ul {
+    padding-left: 1.2rem;
+}
+
+.tarjeta-modulo li {
+    margin-bottom: 0.5rem;
+}
+
+/*  PIE DE PÁGINA */
+.footer-principal {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #274C56;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
